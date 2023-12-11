@@ -18,6 +18,7 @@ public class ArrayListPractice {
         employees.get(3).setInfo("Bella", 29, 'F', "Java Developer", 95000, "A04");
         employees.get(4).setInfo("Jimmy", 54, 'M', "Data Analyst", 105000, "A05");
 
+       // System.out.println(employees);
 
         for (Employee each : employees) {
             System.out.println(each.name + " : " + each.jobTitle);
