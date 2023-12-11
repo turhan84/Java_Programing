@@ -14,6 +14,7 @@ public class RemoveElements {
 
         System.out.println(list);
 
+
         for (int i = 0; i < list.size(); i++) {
             if(list.get(i) < 4){
                 list.remove(i);
