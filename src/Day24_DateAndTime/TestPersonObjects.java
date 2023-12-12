@@ -35,6 +35,8 @@ public class TestPersonObjects {
 
         studentsList.removeIf(person -> LocalDate.now().getYear() - person.dateOfBirth.getYear()>55);
 
+        System.out.println(studentsList);
+
         for (Person each : studentsList) {
             System.out.println("Name: "+ each.name + "\t DOB: " + each.dateOfBirth);
         }
