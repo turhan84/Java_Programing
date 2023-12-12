@@ -35,7 +35,6 @@ public class RemoveElements {
 
         System.out.println(list2);
 
-
         System.out.println("-------------------------------------------------------------");
 
         ArrayList<String> names = new ArrayList<>();
