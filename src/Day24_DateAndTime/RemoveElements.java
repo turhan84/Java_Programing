@@ -61,10 +61,6 @@ public class RemoveElements {
             System.out.println(each.name + " : "+each.salary);
         }
 
-
-
-
-
     }
 
 }
