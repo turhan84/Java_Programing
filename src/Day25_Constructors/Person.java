@@ -21,14 +21,11 @@ public class Person {
 
 
     public String toString() {
-        DateTimeFormatter df = DateTimeFormatter.ofPattern("dd/M/y");
 
-        LocalDate DOB = LocalDate.of(dateOfBirth.getYear(),dateOfBirth.getMonthValue() ,dateOfBirth.getDayOfMonth());
-        ;
         return "Person" +
                 "\nName = " + name +
                 "\nAge = " + age +
-                "\nDate Of Birth = " + DOB.format(df) +
+                "\nDate Of Birth = " + dateOfBirth.format(DateTimeFormatter.ofPattern("MM/dd/y")) +
                 "\nIs Married = " + isMarried +
                 "\nIs Employed = " + isEmployed ;
     }
