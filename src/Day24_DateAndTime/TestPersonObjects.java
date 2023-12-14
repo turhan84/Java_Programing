@@ -3,6 +3,7 @@ package Day24_DateAndTime;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -38,7 +39,7 @@ public class TestPersonObjects {
         System.out.println(studentsList);
 
         for (Person each : studentsList) {
-            System.out.println("Name: "+ each.name + "\t DOB: " + each.dateOfBirth);
+            System.out.println("Name: "+ each.name + "\t DOB: " + each.dateOfBirth.format(DateTimeFormatter.ofPattern("dd/M/y")));
         }
 
     }
