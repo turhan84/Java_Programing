@@ -88,7 +88,7 @@ Class Name: Employee
 
 		5th constructor: initializes name, jobTitle
 
-		6th constructor: initializes banem jobTitle, salary
+		6th constructor: initializes name, jobTitle, salary
 
 	Instnace methods:
 		toString
