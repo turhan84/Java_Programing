@@ -24,6 +24,8 @@ public class Test {
 
         obj.method1();
         obj.method2();
+        System.out.println("===========================================");
+
 
     }
 }
