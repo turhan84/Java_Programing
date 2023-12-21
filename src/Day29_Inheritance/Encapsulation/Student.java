@@ -103,8 +103,7 @@ public class Student {
                 "\nAge = " + age +
                 "\nGender = " + gender +
                 "\nGrade = "+ grade +
-                "\nSchool Name = " + schoolName
-                ;
+                "\nSchool Name = " + schoolName ;
     }
 
 }

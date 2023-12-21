@@ -5,6 +5,7 @@ Topics: OOP Inheritance
 package name: day29_inheritance
 
 Warmup tasks:
+
     1. Create a class named Student:
             private variables:
                 name, age, gender, grade, schoolName
