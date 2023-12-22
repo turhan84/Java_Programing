@@ -4,10 +4,16 @@ public class Student {
 
     private String name;
     private int age;
-
     private char gender, grade;
-
     private String schoolName;
+
+    public Student(String name, int age,char gender,char grade,String schoolName){
+        setName(name);
+        setAge(age);
+        setGender(gender);
+        setGrade(grade);
+        setSchoolName(schoolName);
+    }
 
     public String getName(){
             /*
@@ -89,16 +95,8 @@ public class Student {
         System.out.println(name +" is studying at "+schoolName);
     }
 
-    public Student(String name, int age,char gender,char grade,String schoolName){
-        setName(name);
-        setAge(age);
-        setGender(gender);
-        setGrade(grade);
-        setSchoolName(schoolName);
-    }
-
     public String toString(){
-        return "\nStudent" +
+        return "Student" +
                 "\nName = " + name +
                 "\nAge = " + age +
                 "\nGender = " + gender +
