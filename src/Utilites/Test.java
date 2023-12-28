@@ -1,16 +1,14 @@
 package Utilites;
 
+import Day27_AccessModifiers.AccessModifiers;
 import Day27_AccessModifiers.Data;
 
-import java.util.SortedMap;
-
 public class Test {
+
     public static void main(String[] args) {
 
         System.out.println(Data.d);
-
         System.out.println(Data.e);
-
         System.out.println(Data.f);
 
         Data.method3();
@@ -24,8 +22,27 @@ public class Test {
 
         obj.method1();
         obj.method2();
-        System.out.println("===========================================");
+
+        System.out.println("---------------------------");
+
+        System.out.println(AccessModifiers.publicData); // public is always accessible in different packages
+
+      //  System.out.println(AccessModifiers.protectedData); // protected is NOT always accessible in different packages
+
+    //   System.out.println(AccessModifiers.defaultData); // default is not be accessible in different packages
+
+    //    System.out.println(AccessModifiers.privateData); // private is not accessible in different packages
+
+        new AccessModifiers();
+
+
+        AccessModifiers.publicMethod();
+    //    AccessModifiers.protectedMethod();
+    //    AccessModifiers.defaultMethod();
+    //    AccessModifiers.privateMethod();
+
 
 
     }
+
 }
