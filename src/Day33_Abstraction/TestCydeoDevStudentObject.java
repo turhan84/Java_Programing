@@ -14,7 +14,7 @@ public class TestCydeoDevStudentObject {
         student1.drink();
         student1.sleep();
         student1.breath();
-
+        System.out.println(student1.getAge());
     }
 
 }
