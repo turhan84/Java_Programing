@@ -1,4 +1,4 @@
-package day31_inheritance;
+package Day31_Inheritance;
 
 public class ProtectedAccessModifier {
 
