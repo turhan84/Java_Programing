@@ -61,7 +61,7 @@ public class Person {
         System.out.println(name+" is sleeping");
     }
 
-    public final void breath(){ // To make sure that this implementation will not change for any sub class
+    public final void breath(){ // To make sure that this implementation will not change for any subclass
         System.out.println(name +" is breathing");
     }
 
