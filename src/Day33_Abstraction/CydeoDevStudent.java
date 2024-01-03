@@ -90,7 +90,7 @@ public final class CydeoDevStudent extends Person {
 }
 
 /*
-1. Create a sub class of Person (from day32 package) named CydeoDevStudent (final)
+1. Create a subclass of Person (from day32 package) named CydeoDevStudent (final)
 			Extra Variables:
 				id (final), batchName, batchNumber, programmingLanguage(static & final)
 
