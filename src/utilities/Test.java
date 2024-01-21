@@ -1,7 +1,7 @@
-package Utilites;
+package utilities;
 
-import Day27_AccessModifiers.AccessModifiers;
-import Day27_AccessModifiers.Data;
+import day27_accessModifiers.AccessModifiers;
+import day27_accessModifiers.Data;
 
 public class Test {
 

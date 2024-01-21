@@ -1,7 +1,6 @@
-package Utilites;
+package utilities;
 
-
-import Day31_Inheritance.ProtectedAccessModifier;
+import day31_inheritance.ProtectedAccessModifier;
 
 public class Test3 extends ProtectedAccessModifier {
 
@@ -13,4 +12,3 @@ public class Test3 extends ProtectedAccessModifier {
     }
 
 }
-

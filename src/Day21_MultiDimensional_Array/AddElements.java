@@ -1,6 +1,6 @@
 package Day21_MultiDimensional_Array;
 
-import Utilites.ArraysUtility;
+import utilities.ArraysUtility;
 
 import java.util.Arrays;
 

@@ -1,12 +1,12 @@
-package Utilites;
+package utilities;
 
-//import Day27_AccessModifiers.Data;
+//import day27_accessModifiers.Data;
 
-//import static Day27_AccessModifiers.Data.d;
+//import static day27_accessModifiers.Data.d;
 
-//import static Day27_AccessModifiers.Data.method3;
+//import static day27_accessModifiers.Data.method3;
 
-import static Day27_AccessModifiers.Data.*;
+import static day27_accessModifiers.Data.*;
 
 public class Test2 {
 

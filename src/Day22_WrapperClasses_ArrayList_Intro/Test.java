@@ -1,6 +1,6 @@
 package Day22_WrapperClasses_ArrayList_Intro;
 
-import Utilites.ArraysUtility;
+import utilities.ArraysUtility;
 
 
 public class Test {

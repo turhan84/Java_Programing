@@ -1,6 +1,6 @@
 package Day19_Array;
 
-import Utilites.ArraysUtility;
+import utilities.ArraysUtility;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
 package Day20_For_Each;
 
-import Utilites.ArraysUtility;
+import utilities.ArraysUtility;
 
 import java.util.Arrays;
 
