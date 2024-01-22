@@ -6,7 +6,7 @@ package utilities;
 
 //import static day27_accessModifiers.Data.method3;
 
-import static day27_accessModifiers.Data.*;
+import static Day27_AccessModifiers.Data.*;
 
 public class Test2 {
 

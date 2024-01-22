@@ -1,7 +1,7 @@
 package day42_maps;
 
-import day33_abstraction.employeeTask.Developer;
-import day34_abstraction.carTask.Car;
+import Day33_Abstraction.employeeTask.Developer;
+import Day34_Abstraction.carTask.Car;
 
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
