@@ -5,7 +5,7 @@ import java.util.*;
 public class SetDemo {
 
     public static void main(String[] args) {
-
+        System.out.println("---------------- ArrayList ------------------------");
         List<Integer> list = new ArrayList<>(); // accepts duplicates, keeps insertion order, has index
         list.addAll(Arrays.asList(10, 200, 300, 40, 90));
         list.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -14,7 +14,7 @@ public class SetDemo {
 
         System.out.println(list);
 
-        System.out.println("----------------------------------------");
+        System.out.println("------------- HashSet ---------------------------");
 
         Set<Integer> set1 = new HashSet<>(); // order is random, accepts null key
         set1.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -26,7 +26,7 @@ public class SetDemo {
         System.out.println(set1);
 
 
-        System.out.println("----------------------------------------");
+        System.out.println("---------------- LinkedHashSet ------------------------");
 
         Set<Integer> set2 = new LinkedHashSet<>();  // keeps insertion order, accepts null key
         set2.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -38,7 +38,7 @@ public class SetDemo {
         System.out.println(set2);
 
 
-        System.out.println("----------------------------------------");
+        System.out.println("--------------- TreeSet -------------------------");
 
         String str = null;
        // System.out.println(str.toLowerCase());
