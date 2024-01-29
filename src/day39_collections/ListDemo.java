@@ -16,8 +16,9 @@ public class ListDemo {
         arrayList.add(200);
         arrayList.add(300);
 
+
         arrayList.remove(0);
-        
+
         arrayList.get(0);
 
         LinkedList<Integer> linkedList = new LinkedList<>(); // Node based class (Doubly linked List) ===> add(), addAll(), remove(), removeAll(), removeIf(), retainAll() are faster
@@ -25,6 +26,7 @@ public class ListDemo {
         linkedList.add(100);
         linkedList.add(200);
         linkedList.add(300);
+
 
         linkedList.remove(0);
         
@@ -43,6 +45,20 @@ public class ListDemo {
         vector.get(0);
 
 
+/*
+     // Vector oluşturma
+        Vector<String> vector1 = new Vector<>();
+
+        // Eleman ekleme
+        vector1.add("Java");
+        vector1.add("Python");
+        vector1.add("C++");
+
+        // Elemanları yazdırma
+        for (String language : vector1) {
+            System.out.println(language);
+        }*/
+
         System.out.println("------------------------------------------------------------");
 
         Stack<Integer> stack = new Stack<>();
@@ -60,7 +76,25 @@ public class ListDemo {
 
         System.out.println(secondLastElement);
 
+        System.out.println("Benim ====== ");
+        Stack<String> stack1 = new Stack<>();
 
+        // Yığına eleman ekleme
+        stack1.push("Java");
+        stack1.push("Python");
+        stack1.push("C++");
+
+        // En üstteki elemanı çıkarma
+        String poppedElement = stack1.pop();
+        System.out.println("Popped Element: " + poppedElement);
+
+        // En üstteki elemana erişme
+        String topElement = stack1.peek();
+        System.out.println("Top Element: " + topElement);
+
+        // Yığının boş olup olmadığını kontrol etme
+        boolean isEmpty = stack1.isEmpty();
+        System.out.println("Is Stack Empty? " + isEmpty);
 
 
     }
