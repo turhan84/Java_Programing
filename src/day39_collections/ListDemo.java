@@ -83,7 +83,7 @@ public class ListDemo {
         stack1.push("Java");
         stack1.push("Python");
         stack1.push("C++");
-
+        System.out.println(stack1);
         // En üstteki elemanı çıkarma
         String poppedElement = stack1.pop();
         System.out.println("Popped Element: " + poppedElement);
