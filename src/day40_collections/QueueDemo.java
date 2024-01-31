@@ -5,7 +5,7 @@ import java.util.*;
 public class QueueDemo {
 
     public static void main(String[] args) {
-
+        System.out.println("--------------------  PriorityQueue -------------------------------------");
         Queue<Integer> queue1 = new PriorityQueue<>(); // order is random, does not accept null
         queue1.addAll(Arrays.asList(10, 200, 300, 40, 90));
         queue1.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -27,7 +27,7 @@ public class QueueDemo {
 
       //  System.out.println(queue1.get(4));
 
-        System.out.println("------------------------------------------------------------------");
+        System.out.println("-------------------- ArrayDeque ------------------------------------");
 
         Queue<Integer> queue2 = new ArrayDeque<>(); // insertion order, does not accept null
         queue2.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -55,7 +55,7 @@ public class QueueDemo {
 
       //  System.out.println(queue2.get(3));
 
-        System.out.println("---------------------------------------------");
+        System.out.println("-------------- LinkedList -------------------------------");
 
         Queue<Integer> queue3 = new LinkedList<>(); // insertion order, accepts null, has index
         queue3.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -72,7 +72,7 @@ public class QueueDemo {
         System.out.println(  ( (LinkedList)queue3).get(4)  );
 
 
-        System.out.println("---------------------------------------------");
+        System.out.println("------------------- List - LinkedList --------------------------");
 
         List<Integer> list = new LinkedList<>();
 
